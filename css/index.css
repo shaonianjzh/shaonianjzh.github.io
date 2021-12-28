@@ -1,0 +1,53 @@
+.paddtop {
+	padding-top: 10px;
+}
+
+.search-bth1{
+	float: left;
+	border: 1px solid #ffc900;
+	width: 90px;
+	height: 35px;
+	
+	background-color: #ffc900;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 15px;
+}
+.search-bth2 a{
+	float: left;
+	border: 1px solid #ffc900;
+	width: 90px;
+	height: 35px;
+	
+	background-color: #ffc900;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 15px;
+}
+.search-bth2 a:hover{
+	background-color: #317ef3;
+}
+
+.search-input {
+	float: left;
+	border: 2px solid #ffc900;
+	width: 400px;
+	height: 35px;
+	padding: 5px 5px;
+	margin-top: 15px;
+}
+
+.jx {
+	border-bottom: 2px solid #ffc900;
+}
+
+.footstyle {
+	width: 100%;
+	height: 40px;
+	background-color: #ffc900;
+	text-align: center;
+	line-height: 40px;
+}
+.thumbnail :hover{
+	transform: scale(1.1);
+}
