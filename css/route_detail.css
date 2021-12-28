@@ -1,0 +1,63 @@
+.paddtop {
+	padding-top: 7px;
+}
+
+.sp span {
+	font-size: 16px;
+	border-bottom: 3px solid #ffc900;
+}
+
+.notice p {
+	line-height: 25px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.notice {
+	border: 1px solid #777777;
+	border-bottom: solid #777777;
+	padding: 35px 48px;
+}
+.little-img{
+	margin-top: 5px;
+}
+.little-img img{
+	opacity: 0.6;
+}
+.little-img img:hover{
+	opacity: 1;
+}
+.margin_row{
+	margin: 20px 10px;
+}
+.p_font{
+	background-color: #eeeeee;
+	line-height: 13px;
+	font-size: 15px;
+	margin-left: 15px;
+	padding:10px 10px;
+}
+
+.shoucang{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-align: center;
+	border-width: 100px;
+	background-color: red;
+	border-radius: 10px 10px;
+}
+.shoucang span{
+	color: white;
+}
+.shoucang span :hover{
+	color: black;
+}
+.bg{
+	background-color: #eeeeee;
+	margin-top: 20px;
+	margin-left: 0px;
+	padding:10px 10px;
+}
