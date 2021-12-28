@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+<<<<<<< HEAD
 		<title>旅游网首页</title>
 		
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -198,3 +199,230 @@
 		</footer>
 	</body>
 </html>
+=======
+		<title>旅游网首页</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css" />
+		<script type="text/javascript" src="./bootstrap-3.4.1-dist/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
+		
+	</head>
+	<body>
+		<header class="container-fluid">
+			<div class="row">
+				<img src="img/top_banner.jpg" class="img-responsive"/>
+			</div>
+			<div class="row paddtop">
+				<div class="col-md-1">
+					<img src="img/狮子猫.png" class="img-responsive" width="60px" height="50px"/>					
+				</div>
+				<div class="col-md-1">
+					<img src="img/狮子猫.png" class="img-responsive" width="60px" height="50px"/>					
+				</div>
+				<div class="col-md-1">
+					<img src="img/狮子猫.png" class="img-responsive" width="60px" height="50px"/>
+				</div>
+				<div class="col-md-5">
+					<input class="search-input" type="text" placeholder="请输入路线"  />
+					<a class="search-bth" href="#" >搜索</a>
+				</div>
+				<div class="col-md-2">
+					<img src="img/hotel_tel.png" class="img-responsive"/>
+				</div>
+				<div class="col-md-2">
+					<a class="search-bth" href="login.html" >登录</a>
+				</div>
+			</div>
+			
+			<!-- 导航栏 -->
+			<div class="row">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="https://www.nciae.edu.cn/index.htm">华航</a>
+						</div>
+				
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#" onclick="IsLogin1()" id="myfavorite">我的收藏 <span class="sr-only">(current)</span></a></li>
+								<li><a href="#" id="route" onclick="IsLogin2()">路线详情</a></li>						
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</div>
+			<div class="row">
+				<!-- 轮播图 -->
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active ">
+							<a href="http://www.bmy.com.cn/">
+								<img src="./img/banner_1.jpg" alt="alsdfklaskfls" class="img-responsive" >
+							</a>							
+						</div>
+						<div class="item">
+							<a href="https://www.kkday.com/zh-my/product/30732">
+								<img src="./img/banner_2.jpg" alt="sjfkasjdkfjaskfjl" class="img-responsive">
+							</a>
+						</div>
+						<div class="item">
+							<a href="https://sw.lijiangtour.com/">
+								<img src="./img/banner_3.jpg" alt="sjfkasjdkfjaskfjl" class="img-responsive">
+							</a>
+						</div>
+					</div>
+				
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		
+		<div class="container">
+			<div class="row jx">
+				<img src="img/icon_5.jpg" />
+				<span>旅游精选</span>
+			</div>
+			<div class="row paddtop">
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="https://you.ctrip.com/sight/sanya61/142210.html">
+							<img src="img/jiangxuan_4.jpg" />
+							<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+							<font color="red">￥999</font>
+						</a>						
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="myfavorite1.html">
+							<img src="img/jiangxuan_4.jpg" />
+							<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+							<font color="red">￥999</font>
+						</a>					
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="img/jiangxuan_4.jpg" />
+						<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+						<font color="red">￥999</font>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="img/jiangxuan_4.jpg" />
+						<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+						<font color="red">￥999</font>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row jx">
+				<img src="img/icon_6.jpg" />
+				<span>国内游</span>
+			</div>
+			
+			<div class="row paddtop">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img src="img/guonei_1.jpg" />
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="myfavorite2.html">
+									<img src="img/jiangxuan_2.jpg" />
+									<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+									<font color="red">￥999</font>
+								</a>							
+							</div>
+						</div>
+						
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="myfavorite2.html">
+									<img src="img/jiangxuan_2.jpg" />
+									<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+									<font color="red">￥999</font>
+								</a>	
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="myfavorite2.html">
+									<img src="img/jiangxuan_2.jpg" />
+									<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+									<font color="red">￥999</font>
+								</a>	
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img src="img/jiangxuan_3.jpg" />
+								<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+								<font color="red">￥999</font>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img src="img/jiangxuan_3.jpg" />
+								<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+								<font color="red">￥999</font>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img src="img/jiangxuan_3.jpg" />
+								<p> 上海直飞三亚5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</p>
+								<font color="red">￥999</font>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="container-fluid">
+			<div class="row">
+				<img src="img/footer_service.png" class="img-responsive" />
+			</div>
+			<div class="row">
+				<div class="footstyle">
+					<p>&copy;北华航天工业学院版权所有 </p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+
+>>>>>>> 26406d4ad83abacd1d3262a7926608bc6df32f1e
